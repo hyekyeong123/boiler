@@ -1,16 +1,19 @@
 {
-  "name": "boiler",
-  "version": "1.0.0",
-  "description": "node와 react를 활용한 로그인, 회원가입 보일러 플레이트 만들기",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jeong hye kyeong",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.8.10"
-  }
+    "name": "boiler",
+    "version": "1.0.0",
+    "description": "node와 react를 활용한 로그인, 회원가입 보일러 플레이트 만들기",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jeong hye kyeong",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.8.10",
+        "nodemon": "^2.0.2"
+    }
 }
